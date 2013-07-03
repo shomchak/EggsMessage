@@ -1,0 +1,16 @@
+package epc_tests_proto_defs;
+
+
+message String {
+    optional string value = 1;
+}
+
+
+message Integer {
+    optional int32 value = 1;
+}
+
+message Big {
+    required String string = 1;
+    required Integer integer = 2;
+}

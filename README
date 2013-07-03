@@ -1,0 +1,1 @@
+An RPC framework for python using Protocol Buffers over ZeroMQ. See eggsample.py.
